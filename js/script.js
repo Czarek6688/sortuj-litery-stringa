@@ -1,5 +1,5 @@
-let sentence = "Akademia108";
+function sortedArray(text) {
+  return text.split("").sort().join("");
+}
 
-let sortedArray = sentence.split("").sort().join("");
-
-console.log(sortedArray);
+console.log(sortedArray("Akademia 108"));
